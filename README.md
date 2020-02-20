@@ -12,7 +12,9 @@ LeetCode
 | 23   | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | Go       | Hard       |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Go | Easy |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | Go | Medium |
+| 71 | [Simplify Path](https://leetcode-cn.com/problems/simplify-path/submissions/) | Go | Medium |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) |Go|Medium|
+| 84 | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | Go | Hard | 
 | 86 |[Partition List](https://leetcode.com/problems/partition-list)|Go|Medium|
 | 92   | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|Go|Medium|
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Go | Easy |
@@ -20,6 +22,7 @@ LeetCode
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Go,Python | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | Go | Medium |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list) |Go|Medium|
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | Go | Medium |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | Go | Easy |
 | 192 | [Word Frequency](https://leetcode-cn.com/problems/word-frequency/solution/) | Bash | Medium |
 | 193 | [Valid Phone Numbers](https://leetcode-cn.com/problems/valid-phone-numbers/solution/zheng-ze-biao-da-shi-zhong-xian-ding-fu-yu-ding-we/) | Bash | Easy |
