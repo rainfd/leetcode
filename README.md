@@ -1,15 +1,7 @@
-LeetCode
-========
-
-### LeetCode Algorithm
-
-
-
-| #    | Title                | Solution | Difficulty |
-| ---- | -------------------- | -------- | ---------- |
-| 19 |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|Go|Medium|
+| 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/) | Go,Python | Easy |
+| 19 |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)| Go | Medium |
 | 20 | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/submissions/) | Go | Easy |
-| 23   | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | Go       | Hard       |
+| 23   | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | Go | Hard |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Go | Easy |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | Go | Medium |
 | 71 | [Simplify Path](https://leetcode-cn.com/problems/simplify-path/submissions/) | Go | Medium |
@@ -42,4 +34,3 @@ LeetCode
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Go | Easy |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | Go | Easy |
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | Go | Easy |
-
