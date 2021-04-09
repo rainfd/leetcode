@@ -1,3 +1,5 @@
+| No. | Topic | Language | Difficulty | 
+| --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/) | Go,Python | Easy |
 | 19 |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)| Go | Medium |
 | 20 | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/submissions/) | Go | Easy |
