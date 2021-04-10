@@ -1,0 +1,93 @@
+#!/usr/bin/python3
+import sys
+import os
+
+# Add new topic to README.md and create code dir
+
+def exist(number):
+    with open("README.md", "r") as f:
+        for line in f:
+            elms = line.split("|")
+            num = elms[1].strip()
+            if num == number:
+                return line
+    return False
+
+def get(number):
+    with open("topics", "r") as f:
+        for line in f:
+            elms = line.split(",")
+            num = elms[0].strip()
+            if num == number:
+                return elms
+
+def save(content):
+    with open("README.md", "w") as f:
+        for line in content:
+            f.write(line)
+            f.write("\n")
+
+def add_record(number, topic, language, diff, link):
+    new = []
+    with open("README.md", "r") as f:
+        content = f.read().splitlines()
+        new.extend(content[:2]) # title
+
+        readme = content[2:]
+        language = ",".join([x.capitalize() for x in language.split(",")])
+        record = f"| {number} | [{topic}]({link}) | {language} | {diff} |"
+        readme.append(record)
+        new.extend(sorted(readme, key=lambda x: int(x.split("|")[1])))
+
+        save(new)
+
+def get_ext(language):
+    exts = {
+        "c": ".c",
+        "go": ".go",
+        "python": ".py",
+        "bash": ".bash",
+    }
+    if language not in exts:
+        print("Not supported language!!!")
+        sys.exit(1)
+    return exts[language]
+
+
+
+def add_dir(number, topic, languages):
+    for language in languages.split(","):
+        language = language.lower()
+        
+        topic = topic.replace(" ", "_")
+        dirname = f"{number}.{topic}"
+        dirpath = os.path.join(language, dirname)
+        if not os.path.exists(dirpath):
+            os.mkdir(dirpath)
+
+        ext = get_ext(language)
+        topic = topic.replace("_", "")
+        topic = topic[0].lower() + topic[1:] # reverse cap
+        filename = topic + ext
+        filepath = os.path.join(dirpath, filename)
+        if not os.path.exists(filepath):
+            open(filepath, "w").close()
+
+def main(number, languages):
+    l = exist(number)
+    if l:
+        print(f"Topic {number} existed: {l}")
+        return
+    line = get(number)
+    _, _, topic, _, diff, link, *_ = line
+    add_record(number, topic, languages, diff, link)
+    add_dir(number, topic, languages)
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: \n"
+              "leet.sh add [number] [language]\n"
+              "  Example: ./leet 1 Go")
+    number = sys.argv[1]
+    language = sys.argv[2]
+    main(number, language)
