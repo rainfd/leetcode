@@ -12,6 +12,8 @@
 | 86 |[Partition List](https://leetcode.com/problems/partition-list)|Go|Medium|
 | 92   | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|Go|Medium|
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Go | Easy |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) | Go | Easy |
+| 135 | [Candy](https://leetcode-cn.com/problems/candy) | Go | Hard |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | Python | Medium |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Go,Python | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | Go | Medium |
@@ -27,9 +29,12 @@
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | Go | Easy |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Go | Medium |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | Go | Medium |
+| 392 | [Is Subsequence](https://leetcode-cn.com/problems/is-subsequence) | Go | Easy |
 | 430 |[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|Python|Medium|
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Python | Medium |
+| 455 | [Assign Cookies](https://leetcode-cn.com/problems/assign-cookies) | Go | Easy |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | Go | Easy |
+| 605 | [Can Place Flowers](https://leetcode-cn.com/problems/can-place-flowers) | Go | Easy |
 | 707 | [Design Linked List](https://leetcode.com/problems/design-linked-list)| Go | Easy |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Go | Medium |
 | 817 | [Linked List Components](https://leetcode.com/problems/linked-list-components/) | Go | Medium |
