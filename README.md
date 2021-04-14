@@ -39,5 +39,6 @@
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Go | Medium |
 | 817 | [Linked List Components](https://leetcode.com/problems/linked-list-components/) | Go | Medium |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Go | Easy |
+| 860 | [Lemonade Change](https://leetcode-cn.com/problems/lemonade-change) | Go | Easy |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | Go | Easy |
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | Go | Easy |
